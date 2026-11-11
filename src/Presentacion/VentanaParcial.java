@@ -58,9 +58,9 @@ public class VentanaParcial extends JFrame implements ActionListener {
     @Override
     public void actionPerformed(ActionEvent evento) {
         try {
-            int a = Integer.parseInt(txtA.getText().trim());
-            int b = Integer.parseInt(txtB.getText().trim());
-            int c = Integer.parseInt(txtC.getText().trim());
+            Double a = Double.parseDouble(txtA.getText().trim());
+            Double b = Double.parseDouble(txtB.getText().trim());
+            Double c = Double.parseDouble(txtC.getText().trim());
 
             lblResultado.setText(parcial.calcularRaices(a, b, c));
 

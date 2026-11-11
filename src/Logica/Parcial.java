@@ -2,7 +2,7 @@ package Logica;
 
 public class Parcial {
 
-    public String calcularRaices(int a, int b, int c) throws Exception {
+    public String calcularRaices(double a, double b, double c) throws Exception {
         if (a == 0) {
             throw new Exception("El coeficiente a no puede ser cero.");
         }
